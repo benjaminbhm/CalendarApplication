@@ -1,5 +1,5 @@
 # Calendar Application
-## Features
+## Features (Not yet implemented)
 - Calendar Widget
 - Synch with Google Calendars
 - Different Layouts
