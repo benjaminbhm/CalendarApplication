@@ -3,6 +3,7 @@
 - [ ] Calendar widget
 - [ ] Synch with Google Calendars
 - [ ] Different layouts
+- [ ] Highly Customisable
 - [ ] Multiple views
 - [ ] Specific config e.g. start date
 - [ ] Slotlayout -> Allow entry for a specific amount of time during a day, week or year

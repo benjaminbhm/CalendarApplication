@@ -86,7 +86,7 @@
 }
 
 #calendar-container .calendar-grid td:not(.not-from-this-month):hover {
-    color: #323232;
+    color: #fff;
     background: #2e5eff;
     cursor: pointer;
 }
