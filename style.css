@@ -19,6 +19,7 @@
 
 #calendar-container td {
 	text-align: center;
+    cursor: pointer;
 }
 
 #calendar-container #days {
@@ -81,14 +82,13 @@
 }
 
 #calendar-container .calendar-grid td.today {
-	background: #dcdcdc;
+	background: #f4b942;
 	font-weight: bold;
 }
 
-#calendar-container .calendar-grid td:not(.not-from-this-month):hover {
+#calendar-container .calendar-grid td:not(.not-from-this-month):not(.today):hover {
     color: #fff;
     background: #2e5eff;
-    cursor: pointer;
 }
 
 #calendar-container .old-month, #calendar-container .new-month {
