@@ -54,6 +54,7 @@
 	width:24px; 
     text-align:center; 
     position:absolute;
+    cursor: pointer;
 }
 #calendar-container .navigation-container .left.button {
 	left:0; 
@@ -83,6 +84,11 @@
 
 #calendar-container .calendar-grid td.today {
 	background: #f4b942;
+	font-weight: bold;
+}
+
+#calendar-container .calendar-grid td.marked {
+	background: #1bdcff;
 	font-weight: bold;
 }
 

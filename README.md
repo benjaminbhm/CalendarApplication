@@ -1,6 +1,6 @@
 # Calendar Application
 ## Features (Not yet implemented)
-- [ ] Calendar widget
+- [x] Calendar widget
 - [ ] Synch with Google Calendars
 - [ ] Different layouts
 - [ ] Highly Customisable
