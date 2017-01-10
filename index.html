@@ -2,8 +2,9 @@
 <html>
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html" />
+    <title>Calendar</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -12,10 +13,10 @@
             <span class="left button" id="prev"> &lang; </span>
             <span class="month-year" id="month-year"></span>
             <span class="right button" id="next"> &rang; </span>
-            <script src="./index.js"></script>
+            <script type="text/javascript" src="./index.js"></script>
         </div>
         <div class="table-container" id="table-container">
-            <table id="days">
+            <table id="days" summary="Week Days">
                 <tr>
                     <td>Mo</td>
                     <td>Tu</td>
@@ -32,7 +33,7 @@
         </div>
     </div>
     <div class='input'>
-    	<input type="date" id="datepicker" />
+        <input type="text" id="datepicker" />
     </div>
     <div class="config">
         Here comes some Example Config which should be editable
