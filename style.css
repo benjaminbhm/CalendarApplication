@@ -1,106 +1,143 @@
-#calendar-container {
-    width: 250px;
-    -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
-    -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+#calendar-container
+{
     font: 13px/1.5 Arial, sans-serif;
+
     display: table;
-    -webkit-touch-callout: none;
+
+    width: 250px;
+
     -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+       -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, .25);
+
+    -webkit-touch-callout: none;
+     -khtml-user-select: none;
 }
 
-#calendar-container table {
+#calendar-container table
+{
     width: 100%;
+
     border-collapse: collapse;
 }
 
-#calendar-container td {
-    text-align: center;
+#calendar-container td
+{
     cursor: pointer;
+    text-align: center;
 }
 
-#calendar-container #days {
-    border-bottom: 1px groove #eeeeee;
+#calendar-container #days
+{
+    border-bottom: 1px groove #eee;
 }
 
-#calendar-container #days td {
-    text-transform: uppercase;
+#calendar-container #days td
+{
     font-weight: bold;
+
+    text-transform: uppercase;
 }
 
-#calendar-container #days td:not(:last-child) {
+#calendar-container #days td:not(:last-child)
+{
     border-right: 1px solid #fff;
 }
 
-#calendar-container .navigation-container {
-    cursor: default;
-    background: #0061ff;
-    height: 34px;
-    position: relative;
-    color: #fff;
+#calendar-container .navigation-container
+{
     font-weight: bold;
+
+    position: relative;
+
+    height: 34px;
+
+    cursor: default;
     text-transform: uppercase;
+
+    color: #fff;
+    background: #0061ff;
 }
 
-#calendar-container .navigation-container span {
-    display: inline-block;
+#calendar-container .navigation-container span
+{
     line-height: 34px;
+
+    display: inline-block;
 }
 
-#calendar-container .navigation-container .button {
-    width: 24px;
-    text-align: center;
+#calendar-container .navigation-container .button
+{
     position: absolute;
+
+    width: 24px;
+
     cursor: pointer;
+    text-align: center;
 }
 
-#calendar-container .navigation-container .left.button {
+#calendar-container .navigation-container .left.button
+{
     left: 0;
+
+    border-right: 1px solid #5e9bff;
     -webkit-border-top-left-radius: 5px;
     -moz-border-radius-topleft: 5px;
-    border-top-left-radius: 5px;
-    border-right: 1px solid #5e9bff;
+            border-top-left-radius: 5px;
 }
 
-#calendar-container .navigation-container .right.button {
-    right: 0;
+#calendar-container .navigation-container .right.button
+{
     top: 0;
+    right: 0;
+
     border-left: 1px solid #5e9bff;
     -webkit-border-top-right-radius: 5px;
     -moz-border-radius-topright: 5px;
-    border-top-right-radius: 5px;
+            border-top-right-radius: 5px;
 }
 
-#calendar-container .navigation-container .button:hover {
+#calendar-container .navigation-container .button:hover
+{
     background-color: #0111fe;
 }
 
-#calendar-container .navigation-container .month-year {
-    letter-spacing: 1px;
+#calendar-container .navigation-container .month-year
+{
     width: 100%;
+
+    cursor: pointer;
     text-align: center;
-		cursor: pointer;
+    letter-spacing: 1px;
 }
 
-#calendar-container .calendar-grid td.today {
+#calendar-container .calendar-grid td.today
+{
+    font-weight: bold;
+
     background: #f4b942;
-    font-weight: bold;
 }
 
-#calendar-container .calendar-grid td.marked {
+#calendar-container .calendar-grid td.marked
+{
+    font-weight: bold;
+
     background: #1bdcff;
-    font-weight: bold;
 }
 
-#calendar-container .calendar-grid td:not(.not-from-this-month):not(.today):hover {
+#calendar-container .calendar-grid td:not(.not-from-this-month):not(.today):hover
+{
     color: #fff;
     background: #2e5eff;
 }
 
-#calendar-container .old-month, #calendar-container .new-month {
-    background: #f8f8f8;
+#calendar-container .old-month,
+#calendar-container .new-month
+{
     color: #898989;
+    background: #f8f8f8;
 }
